@@ -9,7 +9,7 @@ print("hello")
 
 
 
-import paho.mqtt.client as paho
+from paho.mqtt import client as paho
 broker="iot.eclipse.org"
 port=1883
 def on_publish(client,userdata,result):
